@@ -1,0 +1,75 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+.inner-body h3{
+    position: absolute;
+    color: #794297;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+
+
+
+.inner-body .date input[type="date"]
+{
+    
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 33rem;
+    font-family: inherit;
+    font-size: 1rem;
+	background-color: transparent;
+	color: var(--color-dark);
+	transition: 0.5s ease-in;
+}
+.inner-body .input{
+    position: absolute;
+    text-align: center;
+    margin: 10rem 33rem;
+    
+}
+.inner-body input{
+    
+    background-color: transparent;
+    appearance: textfield;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 8rem;
+    color: #181a1e;
+    font-family: inherit;
+    
+}
+button {
+    background-color: transparent;
+    transition: 0.4s ease-in;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.129);
+    border-radius: 2rem;
+    padding: 0.4rem;
+    font-size: 0.5rem;
+    font-family: inherit;
+    margin-top: 1rem;
+   
+}
+button:hover{
+    transition: 0.4s ease-out;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.399);
+}
+button a{
+    color: #676767;
+}
+button a:hover{
+    color: #6e6e6e;
+}
+.dark-theme-variables input{
+    color: #f6f6f6;
+    border-bottom: 1px solid white;
+}

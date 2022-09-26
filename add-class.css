@@ -1,0 +1,130 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+
+.inner-body{
+    position:absolute;
+    margin-top: 60px;
+    margin-left: 1rem;
+    background-color: transparent;
+    height: 100%;
+    width:auto;
+  }
+  
+  .add-new-class{
+    background-color: rgb(255, 255, 255); 
+    width:35rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    height: auto;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: #2c2c2c;
+    margin: 5rem 20rem;
+    font-family:inherit;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    text-align: center;  
+    transition: 0.7s ease-in;
+  }
+  .add-new-class:hover{
+    transform: scale(1.09);
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.2);
+    transition:  0.7s ease-out;
+    
+  }
+  .add-new-class input{
+    margin-top: 10px;
+    background-color: #358597;
+    color:#FDBC95;
+    border: none;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 200px;
+    padding: 13px;
+    font-family: inherit;
+    transition: 0.5s ease-in;
+    font-size: 1rem;
+    appearance: textfield;
+    
+  }
+  
+  .add-new-class input:hover{
+  
+    box-shadow: 1px 1px 1px 1px rgba(102, 102, 102, 0.384);
+    color: #DFFEFF;
+    font-weight:200;
+    transform: scale(1.06);
+    transition:  0.7s ease-out;
+  
+  }
+  .add-new-class ::placeholder{
+    opacity: 1;
+  }
+  .add-new-class h5{
+    font-size: 1.5rem;
+  }
+  
+  .add-new-class button{
+    padding: .5rem;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 15px;
+    background-color:#358597;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    transition: all 0.4s ease-in;
+    
+  }
+  .add-new-class button:hover{
+    transform: scale(1.03);
+    padding: .5rem;
+    background-color: #101010;
+    transition:  0.4s ease-in;
+    color: #DFFEFF;
+    font-family: inherit;
+    
+  }
+  .add-new-class a{
+    color: white;
+  }
+.dark-theme-variables .add-new-class{
+  background-color: #181a1e;
+  color: #f6f6f6;
+  border: 2px solid white;
+}
+.dark-theme-variables .add-new-class input{
+  background-color: transparent;
+  color: #f6f6f6;
+  border: 2px solid white;
+}
+.dark-theme-variables .add-new-class button{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+@media all and (max-width: 768px) {
+    
+    
+  .add-new-class{
+    transition: all 0.7s ease-out;
+  margin-top: 6rem;
+  margin-left: 0;
+  display: block;
+  width: 28rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+}

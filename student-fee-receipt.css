@@ -1,0 +1,68 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+
+.inner-body{
+  
+    background-color: transparent;
+   height: auto;
+   width: auto;
+  }
+  .fee{
+    position: absolute;
+    height: auto;
+    width: auto;
+    padding: 5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 5px rgba(98, 98, 98, 0.197);
+    border-radius: 2rem;
+    margin-top: 7rem;
+    margin-left: 30rem;
+    font-size: 1rem;
+    font-family: inherit;
+    text-align: center;
+  }
+  .inner-body h2{
+    font-size: 2rem;
+    margin-left: -1rem;
+    text-align: center;
+  }
+  
+  .inner-body span{
+    color:#289e9c;
+    margin-top: -3rem;
+    margin-left: -1rem;
+    position: relative;
+    font-size: 5rem
+  }
+  button{
+    background-color: rgba(27, 110, 125, 0.816);
+    padding: 0.7rem;
+    color: #f6f6f6;
+    border-radius: 0.5rem;
+    width: 9rem;
+    margin-top: 35rem;
+    margin-left: 37rem;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #289e9c;
+  }
+  .inner-body a{
+    color: #f6f6f6;
+  }
+ .inner-body a:hover{
+    color: #f6f6f6;
+  }
+  .dark-theme-variables .fee{
+    background-color: #181a1e;
+    border: 2px solid white;
+    color: white;
+  }

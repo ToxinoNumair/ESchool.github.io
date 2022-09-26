@@ -1,0 +1,178 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+
+
+.inner-body{
+   
+    background-color: transparent;
+    height: auto;
+    width:auto; 
+  }
+  
+  .inner-body h5{
+   font-weight: lighter;
+   font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.7rem;
+  }
+
+  .inner-body span{
+    margin-bottom: 1rem;
+    text-align: center;
+  padding: 0.5rem;
+  background-color:rgb(110, 50, 174);
+    color: #f6f6f6;
+    border-radius: 2rem;
+    
+  }
+  .h4{
+    display: flex;
+    
+    
+    
+  }
+  .h4 .h4-1{
+    border-radius: 0.4rem;
+    margin-top: 1.5rem;
+    width: 12rem;
+    padding: 0.7rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+    background-color: rgb(110, 50, 174);
+    color: #f6f6f6c4;
+    font-weight:400;
+    z-index: 1;
+    
+  }
+  .h4 .h4-2{
+    border-radius: 0.4rem;
+    margin-top: 1.5rem;
+    width: 12rem;
+    padding: 0.7rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+    background-color: rgba(221, 221, 221, 0.934);
+    color:rgba(110, 50, 174, 0.796);
+    font-weight:400;  
+ 
+  }
+  .a2{
+    color:rgba(110, 50, 174, 0.796) ;
+  }
+
+  .add-new-class{
+    position: absolute;
+    background-color: rgb(255, 255, 255); 
+    width: auto;
+    border-radius: 1rem;
+    font-size: 1rem;
+    height: auto;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    color: #2c2c2c;
+    margin: 6rem 23rem;
+    font-family:inherit;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    text-align: center;  
+    transition: 1s ease-in;
+  }
+  .add-new-class:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.2);
+    transition:  1s ease-out;
+    
+  }
+  .add-new-class input{
+    margin-top: 2rem;
+    
+    background-color:transparent;
+    color:rgba(87, 87, 87, 0.584);
+    border: none;
+    box-shadow: 0px 0px 4px 1px rgba(128, 128, 128, 0.393);
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1rem;
+    width: 22rem;
+    padding: 1rem;
+    font-family: inherit;
+    transition: 0.5s ease-in;
+    
+  }
+  
+  .add-new-class input:hover{
+  
+    box-shadow: 0px 0px 7px 2px rgba(102, 102, 102, 0.384);
+    transition:  0.7s ease-out;
+  
+  }
+  .add-new-class ::placeholder{
+    opacity: 1;
+  }
+  
+  
+  .add-new-class button{
+    margin-top: 2.5rem;
+    padding: 10px;
+    width: 10rem;
+    text-align: center;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color:rgb(110, 50, 174);
+    border-radius: 30px;
+    border: none;
+    transition: all 0.4s ease-in;
+    
+  }
+  a{
+    color: rgba(255, 255, 255, 0.748);
+  }
+  
+  .add-new-class button:hover{
+    
+    background: transparent;
+    transition:  0.4s ease-in;
+    color:rgb(110, 50, 174);
+    border: 1px solid rgb(110, 50, 174);
+    
+  }
+  .add-new-class a:hover{
+    color:rgb(110, 50, 174)
+  }
+
+  .dark-theme-variables .add-new-class{
+    transition: all 0.4s ease-out;
+    background: #181a1e;
+    border: 1px solid #f6f6f6;
+    color: #edeffd;
+    border-radius: 2rem;
+
+  }
+  .dark-theme-variables input{
+    color: #edeffd;
+    background: #181a1e;
+    border: 1px solid #edeffd;
+  }
+
+  @media all and (max-width: 768px) {
+    
+    
+    .add-new-class{
+      transition: all 0.7s ease-out;
+      margin-top: 10rem;
+    margin-left: 1rem;
+    width: 28rem;
+  }
+  .dark-theme-variables .add-new-class{
+    transition: all 1s ease-out;
+   border-radius: 2rem;
+  }
+  }

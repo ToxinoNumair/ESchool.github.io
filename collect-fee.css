@@ -1,0 +1,125 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+
+
+.inner-body{
+    
+    background-color: transparent;
+    height: auto;
+    width:auto;
+
+  }
+  .student-detail h4{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.5rem;
+    
+  }
+  .inner-body h1{
+    font-size: 2rem;
+    font-family: inherit;
+    margin-left: 34rem;
+    color: #358597;
+    
+  }
+  .student-detail {
+    position: absolute;
+    background-color: rgb(255, 255, 255); 
+    width: auto;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    height: auto;
+    padding: 2rem;
+    color: #181a1e;
+    margin: 2rem 27rem;
+    font-family:inherit;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.13);
+    text-align: center;  
+    transition:  0.9s ease-in;
+  }
+  .student-detail:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px 8px rgba(20, 101, 108, 0.2);
+    transition: 0.9s ease-out;
+  }
+  .student-detail input{
+    margin-top: 1rem;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 2px rgba(102, 102, 102, 0.384);
+    color:#48484858;
+    border: none;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 1rem;
+    width: auto;
+    padding: 1rem;
+    font-family: inherit;
+    appearance: textfield;
+    transition: 0.3s ease-out;
+
+  }
+  
+  .student-detail input:hover{
+  transition: 0.3s ease-out;
+    box-shadow: 0px 0px 4px 4px rgba(102, 102, 102, 0.384);
+  
+  }
+  .student-detail ::placeholder{
+    opacity: 1;
+  }
+  
+  .student-detail button{
+    padding: 0.7rem;
+    width: 8rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color:#358597;
+    color: #DFFEFF;
+    border-radius: 2rem;
+    border: none;
+    transition: all 0.7s ease-out;
+    
+  }
+  .student-detail button:hover{
+    transform: scale(1.03);
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid teal;
+    color: #358597;
+  }
+.dark-theme-variables .student-detail{
+    background-color: #181a1e;
+    border: 2px solid white;
+    color: white;
+}
+.dark-theme-variables .student-detail input{
+    background-color: #181a1e;
+    color: white;
+    border: 2px solid white;
+}
+.dark-theme-variables .student-detail button{
+    transition: 0.3s ease-out;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+  @media all and (max-width: 768px) {
+        
+        
+    .student-detail{
+        margin-top: 5rem;
+        display: block;
+        margin-left:2.3rem;
+        
+    }
+    
+}

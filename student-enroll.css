@@ -1,0 +1,240 @@
+.tab b{
+    margin-left: 2rem;
+  }
+    
+.tabb{
+    
+        transition: 0.5s ease-out;
+        position: absolute;
+        width: 81rem;
+        height: auto;
+        margin-top: 1rem;
+        background-color: rgb(255, 255, 255);
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        box-shadow: 0px 0px 7px 7px rgba(128, 128, 128, 0.13);
+      
+}
+  .btn3:hover{
+    transition: 0.5s ease-out;
+    background-color: #2a84d3;
+
+  }
+    tr:hover{
+        transition: 0.2s ease-in;
+        background-color: rgb(246, 246, 246);
+        cursor: pointer;
+      }
+      
+      tr{
+        transition: 0.2s ease-in;
+      }
+  
+.trr a{
+    
+    position: absolute;
+    background-color: #3795c4;
+    padding: 6px;
+    width: auto;
+    border:none;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.completed{
+    position: absolute;
+    background-color: #4da737;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    
+    }
+
+.notstarted{
+position: absolute;
+background-color: #d32a2a;
+width: auto;
+text-align: center;
+color: white;
+padding-top: 5px;
+padding-left: 1rem;
+padding-right: 1rem;
+padding-bottom: 5px;
+border-radius: 5px;
+
+}
+.notstarted b{
+    color: white;
+    text-align: center;
+}
+
+.started{
+    position: absolute;
+background-color: #35b7b7;
+width: auto;
+text-align: center;
+color: white;
+padding-top: 5px;
+padding-left: 1rem;
+padding-right: 1rem;
+padding-bottom: 5px;
+border-radius: 5px;
+
+
+}
+.started b{
+    color: white;
+    text-align: center;
+}
+.btn5{
+    position: absolute;
+    background-color: #3795c4;
+    padding: 6px;
+    width: auto;
+    border:none;
+    border-radius: 5px;
+    color: white;
+}
+
+td span{
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 2rem;
+}
+  .tab{
+    transition: 0.5s ease-out;
+   position: absolute;
+    width: 91rem;
+    height: auto;
+    margin-top: 1rem;
+      background-color: rgb(255, 255, 255);
+     border-bottom-right-radius: 1rem;
+     border-bottom-left-radius: 1rem;
+     border-top-right-radius: 15px;
+     border-top-left-radius: 15px;
+     box-shadow: 0px 0px 7px 7px rgba(128, 128, 128, 0.13);
+  
+  }
+  td img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: 2rem;
+  }
+  
+    
+    .table {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 1rem;
+  
+    }
+    table {
+      border-collapse: collapse;
+    }
+  .white b{
+      color: white;
+  }
+   
+   
+    .white {
+  
+      background: linear-gradient(45deg, rgb(65, 150, 189), rgb(65, 150, 189)) !important;
+      
+    }
+  
+    .table td, .table th {
+       
+      padding: .75rem;
+      vertical-align: top;
+      color: white;
+    }
+   td{
+    width: 1rem;
+   }
+   
+    button, input {
+      overflow: visible;
+    }
+  
+   
+  
+   
+    input{
+      font-family: 'Poppins', sans-serif;
+      background-color: transparent;
+      color: #1f3d52;
+    }
+
+   
+    h1{
+      margin-top: 1rem;
+      text-align: left;
+    }
+  
+  
+    .dark-theme-variables .tab{
+      transition: 0.5s ease-out;
+  background-color: #181a1e;
+  
+    }
+    .dark-theme-variables .tab input{
+     
+  color: white;
+    }
+  
+  
+  h4{
+    
+    color: gray;
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  
+  .button{
+    width: 100%;
+    background-color: rgb(65, 150, 189);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    font-size: 1rem;
+      
+    }
+    .button:hover{
+      transform: scale(1.05);
+      border: 1px solid rgb(68, 159, 201);
+      background-color: transparent;
+      transition: all 0.5s ease-in-out;
+      color: rgb(68, 159, 201);
+    }
+
+  .btn1 span{
+    background-color: rgb(68, 159, 201);
+    border-radius: 2rem;
+    padding: 0.3rem;
+    color: #edeffd;
+  }
+  .btn2 span{
+    background-color: rgb(68, 159, 201);
+    border-radius: 2rem;
+    padding: 0.3rem;
+    
+    color: #edeffd;
+  }
+  td button{
+    background-color: transparent;
+  }
+    

@@ -1,0 +1,346 @@
+
+
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+
+.inner-body{
+    position:relative;
+    margin-top: 60px;
+    background-color: transparent;
+    height: auto;
+    width:auto;
+    font-family: 'Poppins', sans-serif;
+
+  }
+.update-dp{
+  position: absolute;
+    background-color: rgb(255, 255, 255); 
+    width: 600px;
+    border-radius: 20px;
+    font-size: 18px;
+    height: 70px;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    color: #373737;
+    margin: 0rem 5rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.13);
+    transition:  0.7s ease-in;
+    
+    
+  }
+  .update-dp label{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    
+  }
+  .update-dp:hover{
+    transform: scale(1.09);
+    box-shadow: 0px 0px 20px 5px rgba(209, 62, 62, 0.099);
+    transition: 0.9s ease-out; 
+  }
+
+  .update-dp h5{
+    font-size: 1rem;
+  }
+  
+   
+  .update-dp button{
+    padding: 0.2rem;
+    width: 6rem;
+    height: 2.2rem;
+    text-align: center;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color:#358597;
+    color: #DFFEFF;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s ease-in;
+    position: relative;
+    
+  }
+  .update-dp button:hover{
+    padding: 0.2rem;
+    transform: scale(1.02);
+    background-color: transparent;
+    transition: 0.5s ease-out;
+    color: rgb(41, 108, 129);
+    border: 1px solid rgb(22, 111, 123);
+    font-family: inherit;
+    
+  }
+  .dark-theme-variables .update-dp:hover{
+    box-shadow: 0px 0px 10px 10px teal;
+  }
+
+.Updatepassword{
+    position: absolute;
+    background-color: rgb(255, 255, 255); 
+    width: 35rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    height: auto;
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    color: #363636;
+    font-family:inherit;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.13);
+    text-align: center;  
+    transition: 0.9s ease-in;
+    margin: 13rem 9.5rem;
+  }
+  .Updatepassword:hover{
+    transform: scale(1.09);
+    box-shadow: 0px 0px 20px 5px rgba(81, 56, 149, 0.368);
+    transition: 0.9s ease-in-out;
+    
+  }
+  
+  .Updatepassword input{
+    margin-top: 1rem;
+    background-color: transparent;
+    color:#676767;
+    border: none;
+    text-align: center;
+    border-radius: 5rem;
+    font-size: 1rem;
+    width: 12rem;
+    height: 30px;
+    position: relative;
+    
+    font-family: inherit;
+    transition: 0.5s ease-in;
+    box-shadow: 0px 0px 1px 2px rgba(102, 102, 102, 0.253);
+  }
+  
+  .Updatepassword input:hover{
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 1px 3px 3px rgba(74, 146, 158, 0.384);
+  
+  }
+  .Updatepassword ::placeholder{
+    opacity: 1;
+  }
+  
+  .Updatepassword button{
+    padding: 0.3rem;
+    width: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color:#358597;
+    color: #DFFEFF;
+    border-radius: 30px;
+    border: none;
+    transition: 0.7s ease-in;
+    
+  }
+  .Updatepassword button:hover{
+    padding: 0.3rem;
+    transform: scale(1.02);
+    background-color: transparent;
+    transition: 0.9s ease-out;
+    color: rgb(41, 108, 129);
+    border: 1px solid rgb(22, 111, 123);
+    font-family: inherit;
+    
+  }
+
+  .Updatepassword h5{
+   font-size: 1.5rem; 
+  }
+
+  
+.Updatedata{
+  position: absolute;
+  background-color: rgb(255, 255, 255); 
+  width: 35rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  height: auto;
+  padding-top: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  color: #363636;
+  font-family:inherit;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.13);
+  text-align: center;  
+  transition: 0.9s ease-in;
+  margin: 2rem 51rem;
+}
+.Updatedata:hover{
+  transform: scale(1.09);
+  box-shadow: 0px 0px 20px 5px rgba(81, 56, 149, 0.368);
+  transition: 0.9s ease-in-out;
+}
+
+.Updatedata input{
+  margin-top: 1rem;
+  background-color: transparent;
+  color:#676767;
+  border: none;
+  text-align: center;
+  border-radius: 5rem;
+  font-size: 1rem;
+  width: 15rem;
+  height: 30px;
+  position: relative;
+  
+  font-family: inherit;
+  transition: 0.5s ease-in;
+  box-shadow: 0px 0px 1px 2px rgba(102, 102, 102, 0.253);
+}
+
+.Updatedata input:hover{
+  transition: 0.5s ease-in-out;
+  box-shadow: 1px 1px 3px 3px rgba(74, 146, 158, 0.384);
+
+}
+.Updatedata ::placeholder{
+  opacity: 1;
+}
+
+.Updatedata button{
+  padding: 0.3rem;
+  width: 5rem;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color:#358597;
+  color: #DFFEFF;
+  border-radius: 30px;
+  border: none;
+  transition: 0.7s ease-in;
+  
+}
+.Updatedata button:hover{
+  padding: 0.3rem;
+  transform: scale(1.02);
+  background-color: transparent;
+  transition: 0.9s ease-out;
+  color: rgb(41, 108, 129);
+  border: 1px solid rgb(22, 111, 123);
+  font-family: inherit;
+  
+}
+
+.Updatedata h5{
+ font-size: 1.5rem; 
+}
+
+
+  .dark-theme-variables .update-dp{
+    color: #f6f6f6;
+    background-color: #1f2227;
+    border: 1px solid #f6f6f6;
+    
+  }
+  .dark-theme-variables .update-dp button{
+    color: #181a1e;
+    background-color: #f6f6f6;
+    font-family: inherit;
+    
+  }
+
+  .dark-theme-variables .Updatedata{
+    color: #f6f6f6;
+    background-color: #1f2227;
+    border: 1px solid #f6f6f6;
+   
+    
+  }
+  .dark-theme-variables .Updatedata:hover{
+    box-shadow: 0px 0px 10px 10px teal;
+
+
+
+  }
+  .dark-theme-variables .Updatedata button{
+    color: #181a1e;
+    background-color: #f6f6f6;
+    font-family: inherit;
+    
+  }
+  .dark-theme-variables .Updatedata input{
+    color: #f6f6f6;
+    background-color: transparent;
+    border: 1px solid #f6f6f6;
+    
+  }
+
+
+
+  .dark-theme-variables .Updatepassword{
+    color: #f6f6f6;
+    background-color: #1f2227;
+    border: 1px solid #f6f6f6;
+   
+    
+  }
+  .dark-theme-variables .Updatepassword:hover{
+    box-shadow: 0px 0px 10px 10px teal;
+
+
+
+  }
+  .dark-theme-variables .Updatepassword button{
+    color: #181a1e;
+    background-color: #f6f6f6;
+    font-family: inherit;
+    
+  }
+  .dark-theme-variables .Updatepassword input{
+    color: #f6f6f6;
+    background-color: transparent;
+    border: 1px solid #f6f6f6;
+    
+  }
+  @media all and (max-width: 768px) {
+    
+    
+    
+    .update-dp{
+      transition: 0.3s ease-out;
+      margin-top: 15rem;
+      margin-left: 1%;
+      font-size: 1rem;
+      width: 28rem;
+      height: 7rem;
+      
+      
+    }
+    .update-dp button{
+      margin-top: 1rem;
+      margin-left: 9.5rem;
+
+    }
+    .Updatepassword{
+      transition: 0.3s ease-out;
+      
+      margin-left: 1%;
+      font-size: 1px;
+      width: 28rem;
+    }
+    
+    
+
+  }

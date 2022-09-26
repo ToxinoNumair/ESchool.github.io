@@ -1,0 +1,75 @@
+:root {
+    --color-primary: #7380ec;
+        --color-danger: #ff7782;
+        --color-success: #41f1b6;
+        --color-warning: #ffbb55;
+        --color-white: #fff;
+        --color-info-dark: #7d8da1;
+        --color-info-light: #dce1eb;
+        --color-dark: #363949;
+        --color-light: rgb(132, 139, 200, 0.18 );
+        --color-primary-variant: #111e88;
+        --color-dark-variant: #677483;
+        --color-background: #f6f6f9;
+        
+    --card-border-radius: 2rem;
+        --border-radius-1: 0.4rem;
+        --border-radius-2: 0.8rem;
+        --border-radius-3: 1.2rem;
+        
+    --card-padding: 1.8rem; --padding-1: 1.2rem;
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+.dark-theme-variables{
+        background: black;
+        color: #f6f6f6;
+        --color-white: #181a1e;
+        --color-dark: #edeffd;
+        --color-light: rgb(0, 0, 0, 0.4);
+        box-shadow: none;
+}
+
+
+.table-striped tbody td{
+background-color: transparent;
+padding: 1rem;
+width: 15rem;
+}
+.col input{
+font-size: 1rem;
+font-family: inherit;
+}
+.col button{
+    background-color: rgb(53, 134, 204);
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-family: inherit;
+    color: #f6f6f6;
+    border-radius: 5px;
+    transition: 0.4s ease-out;
+
+}
+.col button:hover{
+    transition: 0.4s ease-out;
+    cursor: pointer;
+    background-color: rgb(118, 86, 198);
+    
+
+}
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: rgba(0,0,0,.05);
+  }
+  *, ::after, ::before {
+    box-sizing: inherit;
+  }
+  element {
+    text-align: center;
+    color: #333;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  .table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: rgba(0,0,0,.05);
+  }

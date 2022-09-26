@@ -1,0 +1,173 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+.inner-body{
+  
+    background-color: transparent;
+    height: auto;
+    width:auto;
+    
+  }
+  .inner-body h1{
+    color: rgba(125, 76, 165, 0.853);
+    text-align: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 30%;
+    
+  }
+  .inner-body h3{
+    color: rgba(125, 76, 165, 0.853);
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    position: absolute;
+  }
+
+.search-students-result{
+    background-color: rgb(255, 255, 255); 
+    display: inline-block;
+    width: auto;
+    border-radius: 2rem;
+    font-size: 1rem;
+    height: 200px;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   padding-bottom: 0rem;
+    color: #2c2c2c;
+  
+    font-family:inherit;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.13);
+    text-align: center;  
+    transition: 0.6s ease-in;
+    
+  }
+  .search-students-result:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px 10px rgba(75, 75, 75, 0.216);
+    transition: 0.9s ease-out;
+    
+  }
+  .search-students-result img{
+      margin-top: -1rem;
+    height: 100px;
+    width: 100px;
+  }
+  .search-students-result span{
+      font-size: 1.5rem;
+      color: #f6f6f6;
+      background-color:rgb(214, 88, 88);
+      border-radius: 3rem;
+      padding: 3px;
+      height: 2rem;
+      width: 2rem;
+      transition: 0.5s ease-out;
+  }
+  .search-students-result span:hover{
+      transition: 0.5s ease-out;
+      transform: scale(1.05);
+      box-shadow: 0px 0px 4px 1px rgba(44, 145, 154, 0.341);
+  }
+  .tab input{
+    
+    box-shadow: none;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   }
+
+   .search-students button{
+   
+    width: 2rem;
+    position: absolute;
+    margin-left: 17rem;
+    margin-top: -2rem;
+    text-align: center;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color:transparent;
+    color: #181a1e;
+    border: none;
+    transition: all 0.7s ease-out;
+    border-radius: 2rem;
+    
+  }
+  
+  .reminder:hover{
+    background-color: #1a5d63;
+    color: #f6f6f6;
+    
+
+  }
+  .search-students button:hover{
+    transition: 0.5s ease-out;
+   background-color: transparent;
+  box-shadow: 0px 0px 10px 2px rgba(87, 87, 87, 0.201);
+  }
+.reminder{
+    transition: 0.5s ease-in;
+    position:absolute;
+    margin-top: 1rem;
+    margin-left: 66rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgba(87, 87, 87, 0.126);
+    color: #4c808f;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    display: grid;
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+  }
+  .reminder span{
+    color: rgb(201, 62, 62);
+     
+  }
+  .date{
+
+    margin-left: -7rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.4rem;
+    width: auto;
+    height: auto;
+    border-radius: 1rem;
+    text-align: center;
+}
+.date input{
+    text-align: center;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.315);
+    margin: 1rem;
+}
+.date span{
+    display: grid;
+    width: 3rem;
+    height: auto;
+    margin-left: 49%;
+    border-radius: 3rem;
+    transition: 0.5s ease-out;
+}
+
+.date span:hover{
+  transition: 0.5s ease-out;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.315);
+}

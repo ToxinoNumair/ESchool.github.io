@@ -1,0 +1,166 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+
+.inner-body{
+    position:absolute;
+    margin-top: 60px;
+    background-color: transparent;
+    height: auto;
+    width:auto;
+    overflow: visible;
+    padding-left:60px;
+    
+  }
+  
+  .Assign{
+      
+    background-color: rgb(255, 255, 255); 
+    width: auto;
+    border-radius: 2rem;
+    font-size: 1rem;
+    height: auto;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    color: rgba(23, 23, 23, 0.729);
+    font-family:inherit;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.13);
+    align-content: center;
+    transition: all 0.7s ease-out;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    
+    
+  }
+  .Assign .classname{
+    background-color: transparent;
+    align-content: center;
+    text-align: center;
+    border-radius: 50px;
+    color:rgba(52, 52, 52, 0.595);
+    font-family: inherit;
+    box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.721);
+    border: none;
+    margin-left:300px;
+    transition: all 0.7s ease-out;
+  }
+  .Assign .classname:hover{
+    transform: scale(1.04);
+      box-shadow: 0px 0px 10px 3px rgba(64, 174, 180, 0.495);
+      transition: all 0.5s ease-in-out;
+  }
+  ::placeholder{
+    opacity: 1;
+  }
+  
+  .Assign:hover{
+      transform: scale(1.02);
+      box-shadow: 0px 0px 25px 10px rgba(47, 127, 131, 0.401);
+      transition: all 0.5s ease-in-out;
+  }
+  
+  .Assign input{
+      margin-top: 10px;
+      background-color: transparent;
+      padding: 7px;
+      color: #101010;
+      font-family: inherit;
+      border-radius: 1rem;
+      box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 0.721);
+      appearance: textfield;
+      margin: 0.8rem;
+      
+  
+  }
+  h5{
+      color: #2d7080;
+      font-size: medium;
+  }
+  
+  .button{
+      padding: 10px;
+      width: 150px;
+      text-align: center;
+      margin-top: 10px;
+      background-color: transparent;
+      font-family: sans-serif;
+      font-size: 15px;
+      background-color:#358597;
+      color: #DFFEFF;
+      border-radius: 30px;
+      border: none;
+      transition: all 0.7s ease-out;
+      
+    }
+    .button:hover{
+      transform: scale(1.05);
+      background-color: #101010;
+      transition: all 0.5s ease-in-out;
+      color: #DFFEFF;
+    }
+    .Assign a{
+        color: #f6f6f6;
+    }
+  
+    .dark-theme-variables .Assign{
+        color: white;
+        background-color: #181a1e;
+        border: 2px solid white;
+        transition: all 0.7s ease-out;
+    }
+    .dark-theme-variables .Assign input{
+        border: 1px solid white;
+        color: #f6f6f6;
+        transition: all 0.7s ease-out;
+    }
+    .dark-theme-variables .Assign button{
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        transition: all 0.7s ease-out;
+    }
+    .dark-theme-variables h5{
+        transition: all 0.7s ease-out;
+        color: white;
+    }
+
+@media all and (max-width: 768px) {
+    
+    .Assign{
+    transition: all 0.7s ease-out;
+    margin-top: 4rem;
+    margin-left: -4rem;
+    display: block;
+    width: 29rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .Assign input{
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+    
+    width: 8rem;
+    margin-left: -7px;
+    margin-right: 1rem;
+    
+  }
+  .Assign .classname{
+margin-left: 0;
+margin-top: 1rem;
+width: 10rem;
+  }
+ .Assign button{
+    margin-top: 0;
+    font-size: 0.9rem;
+    
+  }
+
+
+}

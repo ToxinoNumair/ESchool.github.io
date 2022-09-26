@@ -1,0 +1,188 @@
+body{ font-family: 'Poppins', sans-serif;}
+.none{ display:none;}
+.dropdown{color: #1f7583;font-size:1rem;
+background-color: transparent;}
+#calender_section{ width:700px; margin:30px auto 0;}
+#calender_section h2{ background-color:transparent; color:#444444; font-size:17px; text-align:center; line-height:40px;}
+#calender_section h2 a{ background: transparent;
+    border: none;
+    border-radius: 1rem;
+    color: #000;
+
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 20px;}
+#calender_section_top{
+    background: rgb(54, 107, 143) none repeat scroll 0 0;
+    float: left;
+    margin-top: 1rem;
+    padding-bottom: 15px;
+    width: 100%;
+color: white;
+}
+#calender_section_top ul{padding:0; list-style-type:none;}
+#calender_section_top ul li{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin: 0;
+    min-height: 0;
+    padding: 0;
+    text-align: center;
+    width: 99px;}
+#calender_section_top ul li:last-child { border:0px;}
+#calender_section_bot{ width:100%; margin-top:20px; float:left; border-left:2px solid rgba(32, 83, 90, 0.467); border-bottom:2px solid rgba(32, 83, 90, 0.467);}
+#calender_section_bot ul{ margin:0; padding:0; list-style-type:none;}
+#calender_section_bot ul li{ float:left; width:99px; height:80px; text-align:center; border-top:2px solid rgba(32, 83, 90, 0.467); border-right:2px solid rgba(32, 83, 90, 0.467); min-height:0; background:none; box-shadow:none; margin:0; padding:0; position:relative;}
+#calender_section_bot ul li span{ margin-top:7px; float:left; margin-left:7px; text-align:center;}
+
+.grey{ background-color:#000000 !important;
+color: white;}
+.light_sky{ background-color:#2a6f88b9 !important;
+color: white;}
+
+/*========== Hover Popup ===============*/
+.date_cell { cursor: pointer; cursor: hand; }
+.date_cell:hover { background: #23466e !important;
+color: #fff;}
+.date_popup_wrap {
+	position: absolute;
+	width: 143px;
+	height: 115px;
+	z-index: 9999;
+	top: -115px;
+	left:-15px;
+	color: rgb(192, 56, 56) !important;
+}
+.events_window {
+	overflow: hidden;
+	overflow-y: auto;
+	width: 133px;
+	height: 115px;
+	margin-top: 28px;
+	margin-left: 25px;
+
+}
+ #eventTitle{
+    padding: 0.4rem;
+    border-radius: 3rem;
+    background-color:transparent;
+    margin-left: 0.3rem;
+    box-shadow: 0px 0px 7px 2px rgba(128, 128, 128, 0.356);
+   width: 13rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.758);
+    font-family: inherit;
+}
+input{
+    background-color:#1f7583;
+    padding: 0.4rem;
+    color: white;
+    width: 5rem;
+    border-radius: 3rem;
+    transition: 0.5s ease-out;
+    font-family: inherit;
+    border: none;
+}
+input:hover{
+    transition: 0.5s ease-out;
+    border: none;
+    box-shadow: 0px 0px 7px 2px rgba(58, 58, 58, 0.499);
+}
+#eventTitle ::placeholder{
+    color: #000;
+    opacity: 1;
+}
+.event_wrap {
+	margin-bottom: 10px; padding-bottom: 10px;
+	border-bottom: solid 1px #E4E4E7;
+	font-size: 12px;
+	padding: 3px;
+}
+.date_window {
+	margin-top:20px;
+	margin-bottom: 2px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left:9px;
+	margin-right:14px
+}
+.popup_event {
+	margin-bottom: 2px;
+	padding: 2px;
+	font-size: 1rem;
+	width:100%;
+    background-color: #d8e2ff;
+    
+}
+.popup_event a {color: #d8c5d7 !important;}
+.packeg_box a {color: #a098a0;float: right;}
+
+.modal a:hover {
+    color: #228f9d;
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+#calender_section{ width:336px;}
+#calender_section_top ul li{ width:47px;}
+#calender_section_bot ul li{ width:47px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+#calender_section{ width:219px;}
+#calender_section_top ul li{ width:30px; font-size:11px;}
+#calender_section_bot ul li{ width:30px;}
+#calender_section_bot{ width:217px;}
+#calender_section_bot ul li{ height:50px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+#calender_section{ width:530px;}
+#calender_section_top ul li{ width:74px;}
+#calender_section_bot ul li{ width:74px;}
+#calender_section_bot{ width:525px;}
+#calender_section_bot ul li{ height:50px;}
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

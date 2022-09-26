@@ -1,0 +1,215 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+
+  .inner-body{
+    transition: all 0.8s ease-out;
+    position: relative;
+;
+    height: auto;
+    width: auto;
+    
+}
+.inner-body h5{
+  transition: all 0.8s ease-out;
+  color: rgb(65, 120, 122);
+  font-family: inherit;
+  font-size: 2rem;
+  text-align: center;
+}
+.inner-body header{
+  transition: all 0.8s ease-out;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.inner-body form{
+  transition: all 0.8s ease-out;
+  appearance: textfield;
+    position: relative;
+    padding: 3rem;
+    margin-top: 1rem;
+    height: 47rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0px 0px 8px 3px rgba(74, 74, 74, 0.226);
+    
+}
+.inner-body form .form{
+    position: relative;
+ 
+    transition: all 0.8s ease-out;
+}
+
+
+
+.inner-body form .title{
+  transition: all 0.8s ease-out;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+}
+.inner-body form .fields{
+  transition: all 0.8s ease-out;
+  appearance: textfield;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form .fields .input-field{
+  transition: all 0.8s ease-out;
+  appearance: textfield;
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+.input-field label{
+  transition: all 0.8s ease-out;
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.input-field input, select{
+  transition: all 0.8s ease-out;
+  appearance: textfield;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.input-field input :focus,
+.input-field select:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.input-field select,
+.input-field input[type="date"]{
+    color: #707070;
+}
+.input-field input[type="date"]:valid{
+    color: #333;
+}
+.inner-body form button, .backBtn{
+  font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 30rem;
+    background-color: #35b2c0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.inner-body form .btnText{
+  font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+}
+form button:hover{
+    background-color: transparent;
+    border: 1px solid #35b2c0;
+    color: #35b2c0;
+}
+form button i,
+form .backBtn i{
+    margin: 0 6px;
+}
+form .backBtn i{
+    transform: rotate(180deg);
+}
+form .buttons{
+  transition: all 0.8s ease-out;
+    display: flex;
+    align-items: center;
+}
+form .buttons button , .backBtn{
+  transition: all 0.8s ease-out;
+    margin-right: 14px;
+}
+  
+.dark-theme-variables form{
+  transition: all 0.8s ease-out;
+  background-color: #181a1e;
+  color: #f6f6f6;
+  border: 2px soid white;
+
+}
+.dark-theme-variables .input-field input, select{
+  transition: all 0.8s ease-out;
+color: white;
+background-color: transparent;
+}
+.dark-theme-variables  .inner-body {
+  transition: all 0.8s ease-out;
+  color: white;
+}
+.dark-theme-variables label{
+  transition: all 0.8s ease-out;
+  color: white;
+}
+.dark-theme-variables .inner-body .title{
+  transition: all 0.8s ease-out;
+  color: white;
+}
+.dark-theme-variables h5{
+  transition: all 0.8s ease-out;
+  color: #f6f6f6;
+}
+.dark-theme-variables .inner-body form button, .backBtn{
+color: #f6f6f6;
+background-color: #181a1e;
+border: 1px solid white;
+transition: all 0.8s ease-out;
+}
+@media (max-width: 750px) 
+{
+  .inner-body h5{
+    margin-top: 5rem;
+    margin-left: -1rem;
+  }
+    .container form{
+        overflow-y: scroll;
+    }
+    .container form::-webkit-scrollbar{
+       display: none;
+    }
+    form .fields .input-field{
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field{
+        width: 100%;
+    }
+    .inner-body form button, .backBtn{
+      margin-left: 5rem;
+
+    }
+    .inner-body form{
+      width: 30rem;
+    }
+}

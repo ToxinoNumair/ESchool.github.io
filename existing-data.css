@@ -1,0 +1,126 @@
+.dark-theme-variables{
+	background: black;
+	color: #f6f6f6;
+	--color-white: #181a1e;
+	--color-dark: #edeffd;
+	
+	--color-light: rgb(0, 0, 0, 0.4);
+	box-shadow: none;
+}
+
+
+.inner-body{
+    
+    background-color: transparent;
+    height: auto;
+    width:auto;
+  }
+  
+  .database-upload{
+    position: absolute;
+    background-color: rgb(255, 255, 255); 
+    width: 25rem;
+    border-radius: 1.3rem;
+    font-size: 1rem;
+    height: auto;
+    padding-top: 0.8rem;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #373737;
+    margin: 10rem 26rem;
+    font-family: inherit;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.13);
+    transition: all 0.7s ease-in;
+    
+  }
+  .database-upload h5{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-family: inherit;
+    text-align: center;
+  }
+  .database-upload label{
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .database-upload:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px rgba(29, 117, 126, 0.2);
+    transition: all 0.9s ease-out;
+    
+  }
+  .database-upload .material-symbols-sharp{
+    color: #2a4045;
+    margin-left: 42%;
+    font-size: 3rem;
+  }
+ 
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: none;
+    border-radius: 2rem;
+    color: rgba(255, 255, 255, 0.832);
+    background-color:#4fbccd;
+    padding: 8px 20px;
+    font-size: 1rem;
+   font-family: inherit;
+   margin-top: 0.8rem;
+   margin-left: 6rem;
+   font-weight: 600;
+   transition: 0.4s ease-in;
+  }
+  .btn:hover{
+    transition: 0.4s ease-out;
+color: #181a1e;
+background-color: transparent;
+border: 2px solid black;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  
+    .dark-theme-variables .database-upload{
+        color: #f6f6f6;
+        background-color: #1f2227;
+        border: 1px solid white;
+        transition: all 0.5s ease-out;
+    }
+
+
+
+    @media all and (max-width: 768px) {
+    
+        .inner-body{
+            width: 13.5rem;
+        }
+        .database-upload{
+            margin-left: -4rem;
+            margin-top: 23rem;
+            width: 28rem;
+        }
+        .bank-detail{
+            margin-left: -4rem;
+            margin-top: -6rem;
+            width: 28rem;
+        }
+        .bank-info{
+            margin-left: 0;
+            top: -6rem;
+        }
+        
+    }
