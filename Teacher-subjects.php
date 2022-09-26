@@ -1,4 +1,4 @@
-<?php include "student-nav.php" ?>
+<?php include "Teacher-nav.php" ?>
 <!doctype html>
 <html>
 <head>
@@ -12,18 +12,19 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0"/>
 	
 	
-	<link rel="stylesheet" href="css/student-attendance.css?v=<?php echo time(); ?>">
+	<link rel="stylesheet" href="css/Teacher-subjects.css?v=<?php echo time(); ?>">
 </head>
-
 <body>
 
 <div class="inner-body">
+
+
 <h1>Courses</h1>
 
 <div class="insights">
     
 	<div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="study-material.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -41,11 +42,11 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
     
     <div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="study-material.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -63,11 +64,11 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
 
     <div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="study-material.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -85,11 +86,11 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
 
     <div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="study-material.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -107,11 +108,11 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
 
     <div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="study-material.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -129,11 +130,12 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
 
 	
 </div>
+
 
 </div>
 </body>

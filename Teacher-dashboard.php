@@ -12,7 +12,7 @@
     
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 	
-	<link rel="stylesheet" href="css/student-dashboard.css?v=<?php echo time(); ?>">
+	<link rel="stylesheet" href="css/Teacher-dashboard.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
 			
 		<div class="logo">
 		
-			<a href="student-dashboard.php"><img src="img/logo1.png"></a>
+			<a href="Teacher-dashboard.php"><img src="img/logo1.png"></a>
 			
 		</div>
 			
@@ -37,13 +37,13 @@
 		</div>
 			
 			<div class="sidebar">
-			<a href="student-dashboard.php">
+			<a href="Teacher-dashboard.php">
 				<span class="material-symbols-sharp">grid_view</span>
 					<h3>Dashboard</h3>
 					</a>
 
 					<div class="dropdown">
-				<a href="student-profile-setting.php">
+				<a href="Teacher-profile.php">
 				<span class="material-symbols-sharp">manage_accounts</span>
 				<h3>Setting</h3></a>
 				
@@ -51,37 +51,37 @@
 					</div>
 					
 
-					<div>
-				<a href="student-attendance.php">
+					<div class="dropdown">
+				<a href="#">
 				<span class="material-symbols-sharp">room_preferences</span>
 					<h3>Attendance</h3></a>
+                    <div class="dropdowncontent">
+					<a href="Teacher-Mark-Attendance.php">Mark Attendance</a>
+                    <a href="Teacher-view-attendance.php">View Attendance</a>
+                    </div>
+                    </div>
 					
-
-					</div>
 				
-				<a href="students-subject.php">
+				<a href="Teacher-subjects.php">
 				<span class="material-symbols-sharp">menu_book</span>
 					<h3>Subjects</h3></a>
-					
+
+
+					<a href="teacher-upload-assignment.php">
+				<span class="material-symbols-sharp">menu_book</span>
+					<h3>Assignments</h3></a>
 
 					
 					
 			
-				<a href="student-quiz-result.php">
+				<a href="#">
 				<span class="material-symbols-sharp">badge</span>
 					<h3>Quiz Result</h3></a>
 
 
-
-                    <div class="dropdown">
-				<a href="#">
-				<span class="material-symbols-sharp">payments</span>
+                    <a href="teacher-exam-subject-list.php">
+				<span class="material-symbols-sharp">paid</span>
 					<h3>Exam</h3></a>
-					<div class="dropdowncontent">
-					<a href="student-give-exam-1.php">Exam</a>
-                    <a href="student-exam-result.php">My Result</a>
-					</div>
-					</div>
 					
 			
 				<a href="student-timetable.php">
@@ -95,12 +95,14 @@
 					<span class="material-symbols-sharp">calendar_month</span>
 					<h3>Events</h3>
 					</a>
+
                     <div class="dropdowncontent">
 					<a href="student-event.php">My Events</a>
                     <a href="#">All Events</a>
                     </div>
                     </div>
 
+					
 					
 				<a href="student-msg.php">
 				<span class="material-symbols-sharp">forum</span>
@@ -113,15 +115,7 @@
 					</a>
 				
 					
-			<div class="dropdown">
-				<a href=#>
-				<span class="material-symbols-sharp">paid</span>
-					<h3>Fee</h3></a>
-					<div class="dropdowncontent">
-		<a href="student-fee-receipt.php">Fee Slip</a>
-		<a href="student-fee-history.php">Fee History</a>
-					</div>
-			</div>
+		
 					<a href="Login.php">
 				<span class="material-symbols-sharp">logout</span>
 					<h3>Logout</h3></a>
@@ -136,35 +130,56 @@
 
 <div class="insights">
 	<div class="sales">
-	<span class="material-symbols-sharp">flight_class</span>
+	<span class="material-symbols-sharp">
+school
+</span>
 
 		<div class="middle">
 			<div class="left">
-				<h3>Today Status</h3>
-				<h1>Attendance</h1>
+				<h3>Total</h3>
+				<h1>Classes</h1>
 			</div>
 			<div class="progress">
 				<svg>
 					<circle cx='38' cy='38' r='36'></circle>
 				</svg>
-				<div class="number">
-					<p>Present</p>
+				<div class="number" style="font-size: 1.3rem;">
+					<p>4</p>
 				</div>
 
 			</div>
 		</div>
-		<small class="text-muted">Updated Today</small>
+		<small class="text-muted">Updated 2 Months Ago</small>
 	</div>
 
-	<div class="expenses">
-	<span class="material-symbols-sharp">
-        notifications
-             </span>
+    <div class="sales">
+	<span class="material-symbols-sharp">menu_book</span>
 
 		<div class="middle">
 			<div class="left">
-				<h3 style="opacity:0;">None</h3>
-				<h1>Notification</h1>
+				<h3>Total</h3>
+				<h1>Subjects</h1>
+			</div>
+			<div class="progress">
+				<svg>
+					<circle cx='38' cy='38' r='36'></circle>
+				</svg>
+				<div class="number" style="font-size: 1.3rem;">
+					<p>7</p>
+				</div>
+
+			</div>
+		</div>
+		<small class="text-muted">Updated 2 Months Ago</small>
+	</div>
+
+	<div class="expenses">
+	<span class="material-symbols-sharp">groups</span>
+
+		<div class="middle">
+			<div class="left">
+				<h3>Total</h3>
+				<h1>Students</h1>
 		
 			</div>
 			<div class="progress">
@@ -172,7 +187,7 @@
 					<circle cx='38' cy='38' r='36'></circle>
 				</svg>
 				<div class="number" style="font-size: 1.3rem;">
-					<p>5</p>
+					<p>65</p>
 				</div>
 
 			</div>
@@ -249,31 +264,7 @@ chat
 	</div>
 	</div>
 
-<div class="recent-updates">
-	<h2>Recent Updates</h2>
-	<div class="updates">
-		<div class="update">
-			<div class="profile-photo">
-				
-			</div>
-			<div class="message">
-				<p><b>Teacher Hassan</b> is absent today</p>
-			</div>
-		</div>
-	
-		<div class="update">
-			<div class="profile-photo">
-				
-			</div>
-			<div class="message">
-				<p><b>Teacher Numair</b> is absent today</p>
-			</div>
-		</div>
-	
-	</div>
 
-	
-</div>
 <div class="sales-analytics">
 	<h2>Event Updates</h2>
 	
@@ -281,7 +272,7 @@ chat
 		
 		<div class="right">
 			<div class="info">
-				<h3>Parent - Teacher Meeting</h3>
+				<h3>English - Quiz</h3>
 				<small class="text-muted">Today</small>
 			</div>
 			
@@ -298,10 +289,21 @@ chat
 			
 		</div>
 	</div>
+
+    <div class="item customers">
+		
+		<div class="right">
+			<div class="info">
+				<h3>Seminar</h3>
+				<small class="text-muted">Tomorrow</small>
+			</div>
+			
+		</div>
+	</div>
 <div class="item add-product">
 	<div>
 	<span class="material-symbols-sharp">add</span>
-    <h3>Add</h3>	
+    <h3>More</h3>	
 </div>
 </div>
 <h2>Calendar</h2>

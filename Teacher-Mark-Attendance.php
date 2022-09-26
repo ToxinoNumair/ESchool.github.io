@@ -1,7 +1,9 @@
-<?php include "student-nav.php" ?>
+<?php include "Teacher-nav.php" ?>
+
 <!doctype html>
 <html>
 <head>
+    
 <meta charset="utf-8">
 	<meta http http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,intial-scale=1.0">
@@ -12,18 +14,18 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0"/>
 	
 	
-	<link rel="stylesheet" href="css/student-attendance.css?v=<?php echo time(); ?>">
+	<link rel="stylesheet" href="css/teacher-attendance.css?v=<?php echo time(); ?>">
 </head>
-
 <body>
-
 <div class="inner-body">
+
+
 <h1>Courses</h1>
 
 <div class="insights">
     
 	<div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="Teacher-Mark-Attendance2.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -41,11 +43,11 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
     
     <div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="Teacher-Mark-Attendance2.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -63,11 +65,11 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
 
     <div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="Teacher-Mark-Attendance2.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -85,11 +87,11 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
 
     <div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="Teacher-Mark-Attendance2.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -107,11 +109,11 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
 
     <div class="sales">
-    <a href="student-attendance-2.php">
+    <a href="Teacher-Mark-Attendance2.php">
 	<span class="material-symbols-sharp">flight_class</span>
 
 		<div class="middle">
@@ -129,11 +131,12 @@
 
 			</div>
 		</div>
-		
+		<small style="text-align: right;" class="text-muted">Completed</small>
 	</div></a>
 
 	
 </div>
+
 
 </div>
 </body>

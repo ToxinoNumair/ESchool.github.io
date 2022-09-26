@@ -11,18 +11,18 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0"/>
 	
 	
-	<link rel="stylesheet" href="css/student-nav.css?v=<?php echo time(); ?>">
+	<link rel="stylesheet" href="css/Teacher-nav.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
 	
 <div class="container">
-		<aside>
+<aside>
 		<div class="top">
 			
 		<div class="logo">
 		
-			<a href="student-dashboard.php"><img src="img/logo1.png"></a>
+			<a href="Teacher-dashboard.php"><img src="img/logo1.png"></a>
 			
 		</div>
 			
@@ -36,50 +36,51 @@
 		</div>
 			
 			<div class="sidebar">
-			<a href="student-dashboard.php">
+			<a href="Teacher-dashboard.php">
 				<span class="material-symbols-sharp">grid_view</span>
 					<h3>Dashboard</h3>
 					</a>
 
 					<div class="dropdown">
-				<a href="student-profile-setting.php">
+				<a href="Teacher-profile.php">
 				<span class="material-symbols-sharp">manage_accounts</span>
 				<h3>Setting</h3></a>
 				
+				
 					</div>
+					
 
-					<div>
-				<a href="student-attendance.php">
+					<div class="dropdown">
+				<a href="#">
 				<span class="material-symbols-sharp">room_preferences</span>
 					<h3>Attendance</h3></a>
+                    <div class="dropdowncontent">
+					<a href="Teacher-Mark-Attendance.php">Mark Attendance</a>
+                    <a href="Teacher-view-attendance.php">View Attendance</a>
+                    </div>
+                    </div>
 					
-
-					</div>
 				
-				<a href="students-subject.php">
+				<a href="Teacher-subjects.php">
 				<span class="material-symbols-sharp">menu_book</span>
 					<h3>Subjects</h3></a>
-					
+
+
+					<a href="teacher-upload-assignment.php">
+				<span class="material-symbols-sharp">menu_book</span>
+					<h3>Assignments</h3></a>
 
 					
 					
-
 			
-				<a href="student-quiz-result.php">
+				<a href="#">
 				<span class="material-symbols-sharp">badge</span>
 					<h3>Quiz Result</h3></a>
 
 
-					
-					<div class="dropdown">
-				<a href="#">
-				<span class="material-symbols-sharp">payments</span>
+                    <a href="teacher-exam-subject-list.php">
+				<span class="material-symbols-sharp">paid</span>
 					<h3>Exam</h3></a>
-					<div class="dropdowncontent">
-					<a href="student-give-exam-1.php">Exam</a>
-                    <a href="student-exam-result.php">My Result</a>
-					</div>
-					</div>
 					
 			
 				<a href="student-timetable.php">
@@ -100,6 +101,8 @@
                     </div>
 
 					
+				
+					
 
 					
 				<a href="student-msg.php">
@@ -113,23 +116,14 @@
 					</a>
 				
 					
-			<div class="dropdown">
-				<a href=#>
-				<span class="material-symbols-sharp">paid</span>
-					<h3>Fee</h3></a>
-					<div class="dropdowncontent">
-		<a href="student-fee-receipt.php">Fee Slip</a>
-		<a href="student-fee-history.php">Fee History</a>
-					</div>
-			</div>
+		
 					<a href="Login.php">
 				<span class="material-symbols-sharp">logout</span>
 					<h3>Logout</h3></a>
 					
             
 			</div>
-		</aside>
-	<!-----------Sidebar End--------->
+		</aside>	<!-----------Sidebar End--------->
 
 	
 
